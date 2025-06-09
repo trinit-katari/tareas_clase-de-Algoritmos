@@ -1,4 +1,5 @@
-# Inicializar una lista vacía para guardar los múltiplos
+#Hacer un programa que genere los 15 múltiplos de 16 que hay desde 160, guardar los múltiplos en un arreglo
+#Inicializar una lista vacía para guardar los múltiplos
 multiplos = []
 
 # Generar 15 múltiplos de 16 empezando desde 160

@@ -1,3 +1,4 @@
+#acer un programa en C que lea 10 números, los guarde en un arreglo A, verifique si son pares o impares, los pares los guarde en un arreglo llamado PAR, y los impares en uno llamado IMPAR. Finalmente debe imprimir los arreglos A, PAR e IMPAR.
 A = []
 PAR = []
 IMPAR = []

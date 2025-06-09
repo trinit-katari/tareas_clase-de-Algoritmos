@@ -1,3 +1,4 @@
+#Hacer un programa que dado 1 arreglo con los números del 1 al 10 genere las tablas demultiplicar y las imprima como tabla con sus resultados.
 # Crear un arreglo con los números del 1 al 10
 numeros = list(range(1, 11))
 

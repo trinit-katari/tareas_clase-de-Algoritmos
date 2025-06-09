@@ -1,0 +1,15 @@
+PAR = []
+IMPAR = []
+
+while True:
+    num = int(input("Ingrese un número (fin si es múltiplo de 33): "))
+    if num % 33 == 0:
+        break
+    (PAR if num % 2 == 0 else IMPAR).append(num)
+
+min_len = min(len(PAR), len(IMPAR))
+A = [PAR[i] + IMPAR[i] for i in range(min_len)]
+
+print("PAR:", PAR)
+print("IMPAR:", IMPAR)
+print("A (suma de PAR + IMPAR):", A)

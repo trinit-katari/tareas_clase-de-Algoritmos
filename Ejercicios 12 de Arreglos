@@ -1,0 +1,10 @@
+n = int(input("¿Cuántos números desea ingresar? "))
+A = []
+
+for i in range(n):
+    A.append(int(input(f"Número {i+1}: ")))
+
+B = sorted(A)
+
+print("A:", A)
+print("B (ordenado):", B)

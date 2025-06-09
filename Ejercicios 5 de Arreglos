@@ -1,0 +1,25 @@
+# Inicializar los arreglos vacíos
+A = []
+B = []
+C = []
+
+# Leer 10 números para el arreglo A
+print("Ingrese 10 números para el arreglo A:")
+for i in range(10):
+    num = int(input(f"A[{i}]: "))
+    A.append(num)
+
+# Leer 10 números para el arreglo B
+print("\nIngrese 10 números para el arreglo B:")
+for i in range(10):
+    num = int(input(f"B[{i}]: "))
+    B.append(num)
+
+# Sumar los elementos de A y B, guardar en C
+for i in range(10):
+    C.append(A[i] + B[i])
+
+# Imprimir los tres arreglos
+print("\nArreglo A:", A)
+print("Arreglo B:", B)
+print("Arreglo C (A + B):", C)

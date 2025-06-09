@@ -1,18 +1,9 @@
-#include <stdio.h>
+n = int(input("¿Cuántos números desea ingresar? "))
+resultado = []
 
-int main() {
-    int n, i, m = 0;
-    printf("¿Cuántos números desea ingresar? ");
-    scanf("%d", &n);
+for i in range(n):
+    num = int(input(f"Número {i+1}: "))
+    if num % 3 == 0:
+        resultado.append(num)
 
-    int temp, arreglo[n]; // usar n como máximo
-    for(i = 0; i < n; i++) {
-        scanf("%d", &temp);
-        if(temp % 3 == 0) arreglo[m++] = temp;
-    }
-
-    printf("Múltiplos de 3: ");
-    for(i = 0; i < m; i++) printf("%d ", arreglo[i]);
-
-    return 0;
-}
+print("Múltiplos de 3:", resultado)

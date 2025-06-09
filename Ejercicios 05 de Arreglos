@@ -1,3 +1,4 @@
+#Hacer un programa en C que lea 10 números, los guarde en un arreglo A, luego lea otros 10 números, los guarde en un arreglo B, sume los números y guarde el resultado en un arreglo C. Imprimalos 3 arreglos.
 # Inicializar los arreglos vacíos
 A = []
 B = []

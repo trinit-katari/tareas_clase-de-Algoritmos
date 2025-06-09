@@ -1,3 +1,4 @@
+#Hacer un programa que lea 10 números, los guarde en un arreglo, busque el menor y el mayor de los elementos y los imprima
 # Inicializar una lista vacía
 arreglo = []
 

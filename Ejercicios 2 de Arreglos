@@ -1,0 +1,15 @@
+# Inicializar una lista vacía
+arreglo = []
+
+# Leer 10 elementos y agregarlos al arreglo
+for i in range(10):
+    elemento = int(input(f"Introduce el elemento {i+1}: "))  # Solicitar elementos al usuario
+    arreglo.append(elemento)
+
+# Buscar el menor y el mayor elemento en el arreglo
+menor = min(arreglo)
+mayor = max(arreglo)
+
+# Imprimir el menor y mayor
+print(f"\nEl menor número es: {menor}")
+print(f"El mayor número es: {mayor}")

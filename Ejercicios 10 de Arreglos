@@ -1,0 +1,8 @@
+n = int(input("¿Cuántos números desea ingresar? "))
+A = []
+
+for i in range(n):
+    num = int(input(f"Número {i+1}: "))
+    A.append(1 if num % 2 == 0 else num)
+
+print("Arreglo modificado:", A)

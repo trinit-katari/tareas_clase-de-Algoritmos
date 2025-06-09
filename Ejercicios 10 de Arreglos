@@ -1,3 +1,4 @@
+#Hacer un programa en C que lea n números, los guarde en un arreglo busque los elementos pares y los cambie por unos (1), luego imprima el arreglo modificado
 n = int(input("¿Cuántos números desea ingresar? "))
 A = []
 

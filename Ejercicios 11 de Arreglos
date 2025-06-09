@@ -1,3 +1,4 @@
+#Hacer un programa en C que lea n números, y que los guarde en un arreglo, sólo si los elementos son múltiplos de 3. Imprimir el arreglo final
 n = int(input("¿Cuántos números desea ingresar? "))
 resultado = []
 

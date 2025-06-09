@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int n, i, m = 0;
+    printf("¿Cuántos números desea ingresar? ");
+    scanf("%d", &n);
+
+    int temp, arreglo[n]; // usar n como máximo
+    for(i = 0; i < n; i++) {
+        scanf("%d", &temp);
+        if(temp % 3 == 0) arreglo[m++] = temp;
+    }
+
+    printf("Múltiplos de 3: ");
+    for(i = 0; i < m; i++) printf("%d ", arreglo[i]);
+
+    return 0;
+}

@@ -1,3 +1,4 @@
+#Hacer un programa en C que lea números desde teclado (el usuario debe determinar cuántos) que los guarde en un arreglo, luego pregunte al usuario un número, multiplique los números iniciales por el último número ingresado y muestre los valores finales
 n = int(input("¿Cuántos números desea ingresar? "))
 arreglo = []
 

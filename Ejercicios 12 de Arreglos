@@ -1,3 +1,4 @@
+#Hacer un programa en C que lea n números y los guarde en un arreglo A, ordenar los números de menor a mayor y guardarlos ordenados en un arreglo B, imprimir ambos arreglos
 n = int(input("¿Cuántos números desea ingresar? "))
 A = []
 

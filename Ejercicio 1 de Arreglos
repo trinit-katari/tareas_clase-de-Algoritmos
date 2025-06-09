@@ -1,0 +1,15 @@
+# Inicializar una lista vacía
+arreglo = []
+
+# Leer 10 elementos y agregarlos al arreglo
+for i in range(10):
+    elemento = int(input(f"Introduce el elemento {i+1}: "))  # Solicitar elementos al usuario
+    arreglo.append(elemento)
+
+# Duplicar los elementos del arreglo
+duplicados = arreglo * 2
+
+# Imprimir los elementos duplicados
+print("\nElementos duplicados:")
+for elem in duplicados:
+    print(elem)

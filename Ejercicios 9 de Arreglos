@@ -1,24 +1,14 @@
-#include <stdio.h>
+A = []
+PAR = []
+IMPAR = []
 
-int main() {
-    int A[10], PAR[10], IMPAR[10];
-    int i, p = 0, imp = 0;
+print("Ingrese 10 números:")
+for i in range(10):
+    num = int(input(f"Número {i+1}: "))
+    A.append(num)
+    (PAR if num % 2 == 0 else IMPAR).append(num)
 
-    printf("Ingrese 10 números:\n");
-    for(i = 0; i < 10; i++) {
-        scanf("%d", &A[i]);
-        if(A[i] % 2 == 0) PAR[p++] = A[i];
-        else IMPAR[imp++] = A[i];
-    }
+print("A:", A)
+print("PAR:", PAR)
+print("IMPAR:", IMPAR)
 
-    printf("A: ");
-    for(i = 0; i < 10; i++) printf("%d ", A[i]);
-
-    printf("\nPAR: ");
-    for(i = 0; i < p; i++) printf("%d ", PAR[i]);
-
-    printf("\nIMPAR: ");
-    for(i = 0; i < imp; i++) printf("%d ", IMPAR[i]);
-
-    return 0;
-}

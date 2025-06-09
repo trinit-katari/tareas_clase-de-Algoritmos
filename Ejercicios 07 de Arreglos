@@ -1,3 +1,4 @@
+#Hacer un programa que lea 10 números, los guarde en un arreglo A, y luego los traspase al revés a un arreglo B. Imprimir ambos arreglos
 A = []
 print("Ingrese 10 números:")
 for i in range(10):

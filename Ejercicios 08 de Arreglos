@@ -1,3 +1,4 @@
+#Hacer un programa que lea 10 números, los ordene y muestre ordenados de menor a mayor
 A = []
 print("Ingrese 10 números:")
 for i in range(10):
